@@ -1,0 +1,61 @@
+.navbar {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    min-width: calc(100% - 200px);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-block: 20px;
+    padding-inline: 100px;
+}
+.navbar-logo {
+    width: 100%;
+}
+
+.navbar-appointment {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btn-appoint {
+    border: 1px solid #5281b8;
+    background-color: #5281b8;
+    font-size: 17px;
+    padding: 20px 35px;
+    transition: ease-in 0.3s;
+}
+
+.btn-appoint:hover {
+    background-color: transparent;
+}
+
+.btn-appoint a {
+    color: #fff;
+}
+
+.btn-appoint:hover a {
+    color: #5281b8;
+}
+
+.navbar-menu {
+    display: flex;
+    align-self: center;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    background-color: #fff;
+}
+
+.navbar-menu svg {
+    height: 30px;
+    width: 30px;
+}
+
+.navbar-menu button {
+    background-color: transparent;
+    border: transparent;
+}
