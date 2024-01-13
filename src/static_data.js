@@ -1,7 +1,7 @@
 export const nav_data = [
     {
         id: 1,
-        nav_name: "About",
+        nav_name: "ABOUT",
         nav_items: [
             {
                 id: 1,
@@ -11,7 +11,7 @@ export const nav_data = [
     },
     {
         id: 2,
-        nav_name: "About",
+        nav_name: "SERVICES",
         nav_items: [
             {
                 id: 1,
@@ -29,7 +29,7 @@ export const nav_data = [
     },
     {
         id: 3,
-        nav_name: "About",
+        nav_name: "NEW PATIENTS",
         nav_items: [
             {
                 id: 1,

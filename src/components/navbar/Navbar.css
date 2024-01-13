@@ -1,5 +1,5 @@
 .navbar {
-    position: fixed;
+    position: sticky;
     background-color: white;
     top: 0;
     left: 0;
@@ -7,9 +7,10 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    padding-block: 20px;
-    padding-inline: 100px;
+    padding: 15px 100px;
+    z-index: 100;
 }
+
 .navbar-logo {
     width: 100%;
 }
@@ -30,7 +31,7 @@
 }
 
 .btn-appoint:hover {
-    background-color: transparent;
+    background-color: #fff;
 }
 
 .btn-appoint a {
@@ -43,10 +44,11 @@
 
 .navbar-menu {
     display: flex;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     width: 50px;
-    margin: 10px;
+    margin: 10px 20px;
     background-color: #fff;
 }
 
@@ -55,7 +57,122 @@
     width: 30px;
 }
 
-.navbar-menu button {
+.navbar-menu svg:hover {
+    filter: invert(43%) sepia(31%) saturate(744%) hue-rotate(172deg)
+        brightness(105%) contrast(90%);
+}
+
+.navbar-menu > button {
     background-color: transparent;
     border: transparent;
+    height: 30px;
+    z-index: 10;
+    position: relative;
+    padding: 0;
+}
+
+.close-icon {
+    position: relative;
+    top: 3px;
+    left: 3px;
+    height: 23px;
+    width: 23px;
+}
+
+.close-icon:hover {
+    filter: invert(43%) sepia(31%) saturate(744%) hue-rotate(172deg)
+        brightness(105%) contrast(90%);
+}
+
+.background_effect {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    transition: all 0.6s;
+    box-shadow: -8px -8px 8px -8px rgba(0, 0, 0, 0.5);
+    width: 95vh;
+}
+
+.menu-bar {
+    margin: 110px 90px;
+    overflow: hidden;
+}
+
+.menu-items h1 {
+    font-size: 26px;
+    letter-spacing: 3px;
+    line-height: 38px;
+    white-space: nowrap;
+    color: black;
+    cursor: pointer;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.menu-items h1:hover {
+    color: #5281b8;
+}
+
+.menu-appoint {
+    border: 1px solid #5281b8;
+    background-color: #5281b8;
+    font-size: 17px;
+    padding: 20px 35px;
+    margin-top: 30px;
+}
+
+.menu-appoint a {
+    color: #fff;
+    white-space: nowrap;
+}
+
+.open {
+    opacity: 1;
+    padding: 0;
+    margin: 0;
+    transition: all 0.5s;
+    /* overflow: hidden; */
+    padding: -10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.open a {
+    font-size: 17px;
+    color: black;
+}
+
+.open a:hover {
+    transition: all 0.3s;
+    color: #5281b8;
+}
+
+@media screen and (max-width: 645px) {
+    .navbar-menu {
+        margin: 10px;
+    }
+
+    .none {
+        display: none;
+    }
+
+    .navbar-logo svg {
+        height: 40px;
+        width: 187px;
+    }
+
+    .navbar {
+        padding: 10px 20px;
+    }
+
+    .background_effect {
+        width: 100%;
+    }
+
+    .menu-bar {
+        padding: 110px 66px;
+        margin: 0;
+    }
 }

@@ -1,0 +1,553 @@
+.section-1 {
+    margin-top: 5%;
+    padding: 0 60px;
+}
+
+.sec-main_text {
+    text-align: center;
+}
+
+.sec-main_text h1 {
+    font-size: 65px;
+    color: #5281b8;
+    margin: 0;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.sec-main_text h2 {
+    font-size: 63px;
+    margin: 0;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+
+.sec-main_text p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    word-spacing: 3px;
+}
+
+.video_play {
+    margin: 25px;
+    margin-top: 40px;
+}
+
+.video_play img {
+    width: 600px;
+    height: 350px;
+}
+
+.sec-main_cards {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 50px;
+}
+
+.card-item {
+    padding: 30px 50px;
+    /* width: 540px; */
+    height: 250px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-item h5 {
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.card-item p {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.btn-learn {
+    margin-top: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 20px;
+    transition: all 0.5s;
+}
+
+.btn-learn a {
+    font-weight: 400;
+    color: white;
+    font-size: 18px;
+}
+
+.btn-learn:hover {
+    background-color: white;
+    border-color: transparent;
+    color: #5281b8;
+}
+
+.btn-learn:hover a {
+    color: #5281b8;
+}
+
+.card-item:nth-child(1) {
+    background-blend-mode: multiply;
+    background-image: url(https://sculptperio.com/wp-content/uploads/2023/07/SculptCenter-11-1.jpg);
+    background-color: #5e5e5e;
+}
+
+.card-item:nth-child(2) {
+    background-blend-mode: multiply;
+    background-image: url(https://sculptperio.com/wp-content/uploads/2023/07/SculptCenter-13-1.jpg);
+    background-color: #7f7f7f;
+}
+
+.card-item:nth-child(3) {
+    background-blend-mode: multiply;
+    background-image: url(https://sculptperio.com/wp-content/uploads/2023/07/SculptCenter-14-1.jpg);
+    background-color: #5e5e5e;
+}
+.card-item:nth-child(4) {
+    background-blend-mode: multiply;
+    background-image: url(https://sculptperio.com/wp-content/uploads/2023/07/SculptCenter-15-1.jpg);
+    background-color: #5e5e5e;
+}
+
+.section-2 {
+    background-image: linear-gradient(
+            180deg,
+            rgba(24, 64, 112, 0.66) 0%,
+            rgba(24, 64, 112, 0.66) 100%
+        ),
+        url(https://sculptperio.com/wp-content/uploads/2023/07/SculptCenter-16.jpg) !important;
+    margin-top: 25px;
+}
+
+.section2-text {
+    text-align: center;
+    color: white;
+    min-height: 665px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    line-height: 60px;
+    font-weight: 400;
+}
+
+.section-3 {
+    margin: 20px 50px;
+}
+
+.sect3-text {
+    text-align: center;
+}
+
+.sect3-text h3 {
+    font-size: 25px;
+    color: #5281b8;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+.sect3-text h2 {
+    font-size: 35px;
+    margin-top: 0;
+}
+
+.section-3 {
+    padding: 30px 90px;
+}
+
+.sec3-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    place-items: center;
+    margin-top: 100px;
+}
+
+.sec4-text {
+    padding: 5%;
+    color: white;
+    text-align: center;
+    background-color: #5281b8;
+}
+
+.sec4-text h1 {
+    font-size: 65px;
+    font-weight: 500;
+    line-height: 74px;
+    margin: 30px 0;
+}
+
+.sec4-text p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.btn-learn-2 {
+    margin-top: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 15px 20px;
+    transition: all 0.5s;
+    font-weight: 100;
+}
+
+.btn-learn-2 a {
+    font-weight: 100;
+    color: white;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.btn-learn-2:hover {
+    background-color: white;
+    border-color: transparent;
+    color: #5281b8;
+}
+
+.btn-learn-2:hover a {
+    color: #5281b8;
+}
+
+.img {
+    width: 100%;
+}
+
+.img img {
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+.section-5 {
+    display: flex;
+    flex-direction: row;
+    padding: 6.5%;
+}
+
+.sec5-text {
+    padding: 30px 40px;
+    background-color: #5381b9;
+    color: white;
+    /* width: 580px; */
+}
+
+.sec5-text h4 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 0;
+}
+
+.sec5-text > p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    margin-bottom: 35px;
+}
+
+.map-info ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.map-info ul li {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.map-info a {
+    color: white;
+    font-size: 20px;
+}
+
+.map-icons {
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.map-icons img {
+    height: 10px;
+    width: 10px;
+    filter: invert(100%);
+}
+
+.section-6 {
+    padding: 30px 60px;
+}
+
+.sec6-img {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec6-img img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 50% 0%;
+}
+
+.sec6-img img:nth-child(1), img:nth-child(3) {
+    object-position: 50% 40%;
+}
+
+.media-img {
+    display: none;
+    width: 100%;
+}
+
+.sec6-logos {
+    padding-top: 50px;
+    width: 90%;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.sec6-logos img {
+    object-fit: contain;
+}
+
+
+@media screen and (max-width: 645px) {
+    .section-1 {
+        padding: 30px 20px;
+    }
+
+    .sec-main_text h1 {
+        font-size: 40px;
+    }
+
+    .sec-main_text h2 {
+        font-size: 38px;
+    }
+
+    .sec-main_text p {
+        font-size: 16px;
+    }
+
+    .video_play {
+        margin: 40px 0 0 0;
+    }
+
+    .video_play img {
+        width: 100%;
+        object-fit: cover;
+        height: 188px;
+    }
+
+    .sec-main_cards {
+        padding-top: 60px;
+        padding-bottom: 30px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .card-item {
+        padding: 30px 50px;
+        width: 235px;
+        height: 350px;
+    }
+
+    .card-item h5 {
+        font-size: 28px;
+        margin: 0px 0;
+    }
+
+    .card-item p {
+        font-size: 16px;
+        width: 88%;
+    }
+
+    .btn-learn {
+        width: 100%;
+    }
+
+    .section-2 {
+        background-position: 10%;
+        background-size: cover;
+    }
+
+    .section2-text {
+        text-align: center;
+        color: white;
+        min-height: 665px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 100;
+    }
+
+    .section2-text p {
+        width: 82%;
+        font-weight: 100;
+    }
+
+    .section-3 {
+        margin: 30px 20px;
+    }
+
+    .sect3-text {
+        text-align: center;
+    }
+
+    .sect3-text h3 {
+        font-size: 25px;
+        color: #5281b8;
+        letter-spacing: 3px;
+        margin-bottom: 0;
+    }
+
+    .sect3-text h2 {
+        font-size: 35px;
+        margin-top: 0;
+    }
+
+    .section-3 {
+        padding: 0;
+    }
+
+    .sec3-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 40px;
+        place-items: center;
+        margin-top: 35px;
+    }
+
+    .sec4-text {
+        padding: 5%;
+        color: white;
+        text-align: center;
+        background-color: #5281b8;
+    }
+
+    .sec4-text h1 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 55px;
+        margin: 15px 0;
+        letter-spacing: 1px;
+    }
+
+    .sec4-text p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    .btn-learn-2 {
+        width: 100%;
+        margin-top: 15px;
+        background-color: transparent;
+        border: 1px solid white;
+        padding: 15px 20px;
+        transition: all 0.5s;
+    }
+
+    .btn-learn-2 a {
+        font-size: 16px;
+    }
+
+    .section-5 {
+        flex-direction: column;
+        padding: 20px;
+        padding-top: 100px;
+    }
+
+    .sec5-text {
+        padding: 35px;
+    }
+
+    .sec5-text h4 {
+        font-size: 28px;
+    }
+
+    .sec5-text > p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+
+    .map-info ul {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        list-style: none;
+        padding: 0;
+    }
+
+    .map-info ul li {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    .map-info a {
+        color: white;
+        font-size: 16px;
+    }
+
+    .map-icons {
+        border-radius: 50%;
+        padding: 10px;
+        border: 1px solid white;
+        height: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .map-icons img {
+        height: 10px;
+        width: 10px;
+        filter: invert(100%);
+    }
+
+    .map iframe {
+        width: 100%;
+    }
+
+    .section-6 {
+        padding: 20px;
+    }
+
+    .media-img {
+        display: block;
+    }
+
+    .media-img img{
+        width: 100%;
+        object-fit: cover;
+    }
+}
