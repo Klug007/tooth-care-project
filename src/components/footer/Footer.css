@@ -128,6 +128,9 @@
         font-size: 13px;
     }
 
+    .del {
+        display: block;
+    }
 
     .footer-2 p {
         white-space: nowrap;
