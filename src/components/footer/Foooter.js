@@ -11,6 +11,54 @@ import "./Footer.css";
 function Foooter() {
     return (
         <div className="footer">
+            <div className="section-6">
+                <div className="sec6-img none">
+                    <img
+                        src="https://sculptperio.com/wp-content/uploads/2023/07/minFront-Office-Sculpt-Center-for-Implants-and-Periodontics-McLean-VA-min.jpg"
+                        alt=""
+                    />
+                    <img
+                        src="https://sculptperio.com/wp-content/uploads/2023/07/minFront-Desk-Sculpt-Center-for-Implants-and-Periodontics-McLean-VA-min.jpg"
+                        alt=""
+                    />
+                    <img
+                        src="https://sculptperio.com/wp-content/uploads/2023/07/minDental-Chair-Sculpt-Center-for-Implants-and-Periodontics-McLean-VA-min.jpg"
+                        alt=""
+                    />
+                </div>
+                <div className="sec6-logos none">
+                    <img
+                        src="https://sculptperio.com/wp-content/uploads/2023/05/bbb-logo.png"
+                        alt=""
+                    />
+                    <img
+                        src="	https://sculptperio.com/wp-content/uploads/2023/05/american-board-periodontology-logo.jpg"
+                        alt=""
+                    />
+                    <img
+                        src="	https://sculptperio.com/wp-content/uploads/2023/05/american-academy-periodontology-logo.png"
+                        alt=""
+                    />
+                    <img
+                        src="	https://sculptperio.com/wp-content/uploads/2023/05/virginia-society-periodontics-logo.jpg"
+                        alt=""
+                    />
+                    <img
+                        src="https://sculptperio.com/wp-content/uploads/2023/05/academy-of-osseointegration.png"
+                        alt=""
+                    />
+                    <img
+                        src="https://sculptperio.com/wp-content/uploads/2023/07/Badge_DDS_2023.jpg"
+                        alt=""
+                    />
+                </div>
+                <div className="media-img">
+                    <img
+                        src="https://sculptperio.com/wp-content/uploads/2023/07/Mclean-VA-Sculpt-Center-for-Implants-and-Periodontics-Dental-Office.jpg"
+                        alt=""
+                    />
+                </div>
+            </div>
             <div className="footer-1">
                 <div className="f-item">
                     <h1>STAY IN TOUCH</h1>

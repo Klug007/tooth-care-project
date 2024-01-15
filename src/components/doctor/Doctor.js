@@ -50,9 +50,9 @@ function Doctor() {
                     </li>
                 </ul>
                 <div>
-                    <button className="btn-appoint">
-                        <a href="/learn">Learn More</a>
-                    </button>
+                    <a href="/learn">
+                        <button className="btn-appoint">Learn More</button>
+                    </a>
                 </div>
             </div>
         </div>

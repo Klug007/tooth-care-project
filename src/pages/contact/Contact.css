@@ -1,0 +1,192 @@
+.contact-img {
+    position: relative;
+    background-image: url("https://sculptperio.com/wp-content/uploads/2023/06/Reception-Area-Sculpt-Center-for-Implants-and-Periodontics-McLean-VA.jpg") !important;
+    min-height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.star {
+    color: #790000;
+    margin-left: 4px;
+}
+
+.img-text {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-text h1 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 400;
+    padding: 0;
+}
+
+.img-text p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 25px;
+}
+
+.contact-img::after {
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+
+.book-appoint {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 60px;
+}
+
+.address {
+    background-color: #5281b8;
+    color: white;
+    width: 33.3%;
+    height: 412px;
+    padding: 30px;
+    margin: 0 60px;
+}
+
+.address h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 65px;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    /* font-weight: 700; */
+    gap: 10px;
+}
+
+.book > label {
+    font-weight: 900;
+}
+
+input:checked + label {
+    font-weight: bold;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid #363636;
+    font-size: 20px;
+    color: #3e3e3e;
+}
+
+input:focus {
+    outline: transparent;
+    font-weight: 500;
+    border: 2px solid #93c594;
+}
+
+textarea {
+    font-size: inherit;
+    height: 160px;
+    width: 100%;
+    border: 2px solid #363636;
+    padding: 10px;
+    line-height: 1.5;
+    resize: none;
+}
+
+textarea:focus {
+    outline: transparent;
+    border: 2px solid #93c594;
+}
+
+.submit button {
+    background-color: #5281b8;
+    padding: 10px;
+    color: white;
+    transition: all 0.5s;
+    font-size: 1em;
+    border: 1px solid white;
+}
+
+.submit button:hover {
+    background-color: white;
+    border: 1px solid #5281b8;
+    color: #5281b8;
+}
+
+.contact-map {
+    padding: 30px 100px 0 100px;
+    height: 430px;
+}
+
+@media screen and (max-width: 645px) {
+    .star {
+        color: #790000;
+        margin-left: 4px;
+    }
+
+    .img-text h1 {
+        margin: 0 auto;
+        font-size: 29px;
+        font-weight: 100;
+        width: 95%;
+    }
+
+    .img-text p {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .book-appoint {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        gap: 50px;
+    }
+
+    .address {
+        background-color: #5281b8;
+        color: white;
+        width: 80%;
+        height: 400px;
+        padding: 30px;
+        margin: 0;
+    }
+
+    .address h1 {
+        text-align: center;
+        margin: 0;
+        font-size: 40px;
+    }
+
+    .book {
+        gap: 20px;
+    }
+
+    textarea {
+        height: 160px;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .submit button {
+        width: 100%;
+    }
+
+    .contact-map {
+        padding: 10px;
+        height: 330px;  
+    }
+}

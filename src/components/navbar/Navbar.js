@@ -18,29 +18,52 @@ function Navbar() {
                 </a>
             </div>
             <div className="navbar-appointment">
-                <button className="btn-appoint none">
-                    <a href="./appointment">Reaquest Appointment</a>
-                </button>
+                <a href="./contact">
+                    <button className="btn-appoint none">
+                        Reaquest Appointment
+                    </button>
+                </a>
                 <div className="navbar-menu">
                     <button onClick={toggleDropdown}>
-                        {!open?(<Menu /> ):(<img src={Close}alt="image"className="close-icon"/>)}
+                        {!open ? (
+                            <Menu />
+                        ) : (
+                            <img
+                                src={Close}
+                                alt="close"
+                                className="close-icon"
+                            />
+                        )}
                     </button>
                     <div
                         className="background_effect"
-                        style={open? { height: "100vh"}: { height: "100vh", width: "0" }
+                        style={
+                            open
+                                ? { height: "100vh" }
+                                : { height: "100vh", width: "0" }
                         }
                     >
                         <div
                             className="menu-bar"
-                            style={open? { display: "block" }: { display: "none" }}
+                            style={
+                                open
+                                    ? { display: "block" }
+                                    : { display: "none" }
+                            }
                         >
                             <Menuitems />
-                            <button
-                                className="menu-appoint"
-                                style={ open? { display: "block" }: { display: "none" }}
-                            >
-                                <a href="./appointment">Reaquest Appointment</a>
-                            </button>
+                            <a href="/contact">
+                                <button
+                                    className="menu-appoint"
+                                    style={
+                                        open
+                                            ? { display: "block" }
+                                            : { display: "none" }
+                                    }
+                                >
+                                    Reaquest Appointment
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>

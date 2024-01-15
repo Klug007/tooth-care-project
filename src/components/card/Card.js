@@ -36,9 +36,11 @@ function Card() {
                             successful implant treatment.
                         </p>
                         <div>
-                            <button className="btn-learn">
-                                <a href="/learn">Learn More</a>
-                            </button>
+                            <a href="/learn">
+                                <button className="btn-learn">
+                                    Learn More
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div className="card-item">
@@ -50,9 +52,11 @@ function Card() {
                             successful implant treatment.
                         </p>
                         <div>
-                            <button className="btn-learn">
-                                <a href="/learn">Learn More</a>
-                            </button>
+                            <a href="/learn">
+                                <button className="btn-learn">
+                                    Learn More
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div className="card-item">
@@ -64,9 +68,11 @@ function Card() {
                             successful implant treatment.
                         </p>
                         <div>
-                            <button className="btn-learn">
-                                <a href="/learn">Learn More</a>
-                            </button>
+                            <a href="/learn">
+                                <button className="btn-learn">
+                                    Learn More
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div className="card-item">
@@ -78,9 +84,11 @@ function Card() {
                             successful implant treatment.
                         </p>
                         <div>
-                            <button className="btn-learn">
-                                <a href="/learn">Learn More</a>
-                            </button>
+                            <a href="/learn">
+                                <button className="btn-learn">
+                                    Learn More
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -136,9 +144,9 @@ function Card() {
                         scanner, and Green CT scan for superior diagnostics and
                         treatment planning.
                     </p>
-                    <button className="btn-learn-2">
-                        <a href="/">Learn More</a>
-                    </button>
+                    <a href="/learn">
+                        <button className="btn-learn-2">Learn More</button>
+                    </a>
                 </div>
                 <div className="img none">
                     <img
@@ -207,54 +215,6 @@ function Card() {
                         loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"
                     ></iframe>
-                </div>
-            </div>
-            <div className="section-6">
-                <div className="sec6-img none">
-                    <img
-                        src="https://sculptperio.com/wp-content/uploads/2023/07/minFront-Office-Sculpt-Center-for-Implants-and-Periodontics-McLean-VA-min.jpg"
-                        alt=""
-                    />
-                    <img
-                        src="https://sculptperio.com/wp-content/uploads/2023/07/minFront-Desk-Sculpt-Center-for-Implants-and-Periodontics-McLean-VA-min.jpg"
-                        alt=""
-                    />
-                    <img
-                        src="https://sculptperio.com/wp-content/uploads/2023/07/minDental-Chair-Sculpt-Center-for-Implants-and-Periodontics-McLean-VA-min.jpg"
-                        alt=""
-                    />
-                </div>
-                <div className="sec6-logos none">
-                    <img
-                        src="https://sculptperio.com/wp-content/uploads/2023/05/bbb-logo.png"
-                        alt=""
-                    />
-                    <img
-                        src="	https://sculptperio.com/wp-content/uploads/2023/05/american-board-periodontology-logo.jpg"
-                        alt=""
-                    />
-                    <img
-                        src="	https://sculptperio.com/wp-content/uploads/2023/05/american-academy-periodontology-logo.png"
-                        alt=""
-                    />
-                    <img
-                        src="	https://sculptperio.com/wp-content/uploads/2023/05/virginia-society-periodontics-logo.jpg"
-                        alt=""
-                    />
-                    <img
-                        src="https://sculptperio.com/wp-content/uploads/2023/05/academy-of-osseointegration.png"
-                        alt=""
-                    />
-                    <img
-                        src="https://sculptperio.com/wp-content/uploads/2023/07/Badge_DDS_2023.jpg"
-                        alt=""
-                    />
-                </div>
-                <div className="media-img">
-                    <img
-                        src="https://sculptperio.com/wp-content/uploads/2023/07/Mclean-VA-Sculpt-Center-for-Implants-and-Periodontics-Dental-Office.jpg"
-                        alt=""
-                    />
                 </div>
             </div>
         </div>

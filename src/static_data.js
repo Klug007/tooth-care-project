@@ -5,7 +5,7 @@ export const nav_data = [
         nav_items: [
             {
                 id: 1,
-                nav_child_name: "Teachnology",
+                nav_child_name: "Technology",
             },
         ],
     },

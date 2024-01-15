@@ -8,12 +8,16 @@ function Main() {
                 <p>THE MCLEAN PERIODONTIST</p>
                 <h1>Your Smile Deserves Our Highest Attention</h1>
                 <div>
-                    <button className="btn-appoint">
-                        <a href="/">Request Appointment</a>
-                    </button>
-                    <button className="btn-appoint">
-                        <a href="/">Call (703) 962-4119</a>
-                    </button>
+                    <a href="/contact">
+                        <button className="btn-appoint">
+                            Request Appointment
+                        </button>
+                    </a>
+                    <a href="703 952-4149">
+                        <button className="btn-appoint">
+                            Call (703) 962-4119
+                        </button>
+                    </a>
                 </div>
             </div>
             <div className="video-container">

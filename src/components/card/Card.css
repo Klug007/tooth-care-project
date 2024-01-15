@@ -80,21 +80,19 @@
     border: 1px solid white;
     padding: 10px 20px;
     transition: all 0.5s;
-}
-
-.btn-learn a {
-    font-weight: 400;
+    font-weight: 100;
     color: white;
-    font-size: 18px;
+    font-size: 17px;
+    cursor: pointer;
+    letter-spacing: 1px;
 }
 
 .btn-learn:hover {
     background-color: white;
     border-color: transparent;
-    color: #5281b8;
 }
 
-.btn-learn:hover a {
+.btn-learn:hover {
     color: #5281b8;
 }
 
@@ -202,13 +200,13 @@
     border: 1px solid white;
     padding: 15px 20px;
     transition: all 0.5s;
-    font-weight: 100;
+    cursor: pointer;
 }
 
-.btn-learn-2 a {
+.btn-learn-2 {
     font-weight: 100;
     color: white;
-    font-size: 17px;
+    font-size: 16px;
     letter-spacing: 1px;
 }
 
@@ -218,7 +216,7 @@
     color: #5281b8;
 }
 
-.btn-learn-2:hover a {
+.btn-learn-2:hover {
     color: #5281b8;
 }
 
@@ -262,7 +260,7 @@
 .map-info ul {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
     list-style: none;
     padding: 0;
 }
@@ -271,6 +269,7 @@
     display: flex;
     flex-direction: row;
     gap: 15px;
+    line-height: 33px;
 }
 
 .map-info a {
@@ -285,6 +284,7 @@
     height: 10px;
     display: flex;
     justify-content: center;
+    margin-top: 5px;
 }
 
 .map-icons img {
@@ -292,47 +292,6 @@
     width: 10px;
     filter: invert(100%);
 }
-
-.section-6 {
-    padding: 30px 60px;
-}
-
-.sec6-img {
-    padding: 10px 0;
-    display: flex;
-    flex-direction: row;
-}
-
-.sec6-img img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    object-position: 50% 0%;
-}
-
-.sec6-img img:nth-child(1), img:nth-child(3) {
-    object-position: 50% 40%;
-}
-
-.media-img {
-    display: none;
-    width: 100%;
-}
-
-.sec6-logos {
-    padding-top: 50px;
-    width: 90%;
-    height: 120px;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-}
-
-.sec6-logos img {
-    object-fit: contain;
-}
-
 
 @media screen and (max-width: 645px) {
     .section-1 {
@@ -536,18 +495,5 @@
 
     .map iframe {
         width: 100%;
-    }
-
-    .section-6 {
-        padding: 20px;
-    }
-
-    .media-img {
-        display: block;
-    }
-
-    .media-img img{
-        width: 100%;
-        object-fit: cover;
     }
 }
